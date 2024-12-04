@@ -75,10 +75,6 @@ header nav ul li .search-input {
 header nav ul li .search-input input {
   border: none;
 }
-
-header nav input {
-  appearance: none;
-}
 @media (max-width: 991px) {
   header nav ul {
     display: none;
