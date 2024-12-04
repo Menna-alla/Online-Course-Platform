@@ -32,3 +32,56 @@ ul {
     width: 1170px;
   }
 }
+header {
+  position:sticky;
+  top: 0;
+  padding: 20px 0;
+  border: 1px solid var(--black);
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo img {
+  width: 38px;
+  margin: 10px 10px 0 0;
+}
+header .logo a {
+  font-family: "Roboto", serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--black);
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header nav ul li a {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
+}
+header nav ul li .search-input {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  border: 1px solid #0f0a0ac2;
+  border-radius: 6px;
+}
+header nav ul li .search-input input {
+  border: none;
+}
+
+header nav input {
+  appearance: none;
+}
+@media (max-width: 991px) {
+  header nav ul {
+    display: none;
+  }
+}
+
