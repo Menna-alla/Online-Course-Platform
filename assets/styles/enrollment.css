@@ -85,3 +85,67 @@ section {
   background-color: var(--black);
   border-radius: 6px;
 }
+
+.course-selection .container h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.courses {
+  margin-top:20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-group {
+  padding:50px 0 ;
+}
+
+label {
+  font-weight: 500;
+  display: block;
+  margin: 20px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="date"], input[type="text"], input[type="month"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content:center;
+  margin-top: 60px;
+}
+
+button {
+  padding: 10px 70px;
+  border: none;
+  margin:0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.back {
+  background-color: #ccc;
+  color: #000;
+}
+
+button.next {
+  background-color: #000;
+  color: #ffffff;
+}
