@@ -110,4 +110,23 @@ img {
   font-weight:500;
   font-size:18px;
 }
+.our-Learners {
+  padding-bottom: 150px;
+}
+.our-Learners h2 {
+  text-align: center;
+  font-family: "Poppins", serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+.our-Learners .Social-media {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+}
+.our-Learners .Social-media img {
+  width: 241px;
+}
 
