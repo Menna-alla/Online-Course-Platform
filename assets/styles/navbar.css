@@ -36,7 +36,8 @@ header {
   position:sticky;
   top: 0;
   padding: 20px 0;
-  border: 1px solid var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--black); 
 }
 header .container {
   display: flex;
